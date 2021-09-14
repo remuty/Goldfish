@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AACA087426F09ADA005E3A67 /* Goldfish_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA087326F09ADA005E3A67 /* Goldfish_iOSApp.swift */; };
+		AACA087626F09ADA005E3A67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA087526F09ADA005E3A67 /* ContentView.swift */; };
+		AACA087826F09ADC005E3A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACA087726F09ADC005E3A67 /* Assets.xcassets */; };
+		AACA087B26F09ADC005E3A67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACA087A26F09ADC005E3A67 /* Preview Assets.xcassets */; };
+		AACA088626F09ADC005E3A67 /* Goldfish_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA088526F09ADC005E3A67 /* Goldfish_iOSTests.swift */; };
+		AACA089126F09ADC005E3A67 /* Goldfish_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA089026F09ADC005E3A67 /* Goldfish_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AACA088226F09ADC005E3A67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AACA086826F09ADA005E3A67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACA086F26F09ADA005E3A67;
+			remoteInfo = "Goldfish-iOS";
+		};
+		AACA088D26F09ADC005E3A67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AACA086826F09ADA005E3A67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACA086F26F09ADA005E3A67;
+			remoteInfo = "Goldfish-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AACA087026F09ADA005E3A67 /* Goldfish-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goldfish-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACA087326F09ADA005E3A67 /* Goldfish_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goldfish_iOSApp.swift; sourceTree = "<group>"; };
+		AACA087526F09ADA005E3A67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AACA087726F09ADC005E3A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AACA087A26F09ADC005E3A67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AACA087C26F09ADC005E3A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACA088126F09ADC005E3A67 /* Goldfish-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goldfish-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACA088526F09ADC005E3A67 /* Goldfish_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goldfish_iOSTests.swift; sourceTree = "<group>"; };
+		AACA088726F09ADC005E3A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACA088C26F09ADC005E3A67 /* Goldfish-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goldfish-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACA089026F09ADC005E3A67 /* Goldfish_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goldfish_iOSUITests.swift; sourceTree = "<group>"; };
+		AACA089226F09ADC005E3A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AACA086D26F09ADA005E3A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACA087E26F09ADC005E3A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACA088926F09ADC005E3A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AACA086726F09ADA005E3A67 = {
+			isa = PBXGroup;
+			children = (
+				AACA087226F09ADA005E3A67 /* Goldfish-iOS */,
+				AACA088426F09ADC005E3A67 /* Goldfish-iOSTests */,
+				AACA088F26F09ADC005E3A67 /* Goldfish-iOSUITests */,
+				AACA087126F09ADA005E3A67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AACA087126F09ADA005E3A67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AACA087026F09ADA005E3A67 /* Goldfish-iOS.app */,
+				AACA088126F09ADC005E3A67 /* Goldfish-iOSTests.xctest */,
+				AACA088C26F09ADC005E3A67 /* Goldfish-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AACA087226F09ADA005E3A67 /* Goldfish-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AACA087326F09ADA005E3A67 /* Goldfish_iOSApp.swift */,
+				AACA087526F09ADA005E3A67 /* ContentView.swift */,
+				AACA087726F09ADC005E3A67 /* Assets.xcassets */,
+				AACA087C26F09ADC005E3A67 /* Info.plist */,
+				AACA087926F09ADC005E3A67 /* Preview Content */,
+			);
+			path = "Goldfish-iOS";
+			sourceTree = "<group>";
+		};
+		AACA087926F09ADC005E3A67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AACA087A26F09ADC005E3A67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AACA088426F09ADC005E3A67 /* Goldfish-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AACA088526F09ADC005E3A67 /* Goldfish_iOSTests.swift */,
+				AACA088726F09ADC005E3A67 /* Info.plist */,
+			);
+			path = "Goldfish-iOSTests";
+			sourceTree = "<group>";
+		};
+		AACA088F26F09ADC005E3A67 /* Goldfish-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AACA089026F09ADC005E3A67 /* Goldfish_iOSUITests.swift */,
+				AACA089226F09ADC005E3A67 /* Info.plist */,
+			);
+			path = "Goldfish-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AACA086F26F09ADA005E3A67 /* Goldfish-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACA089526F09ADC005E3A67 /* Build configuration list for PBXNativeTarget "Goldfish-iOS" */;
+			buildPhases = (
+				AACA086C26F09ADA005E3A67 /* Sources */,
+				AACA086D26F09ADA005E3A67 /* Frameworks */,
+				AACA086E26F09ADA005E3A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Goldfish-iOS";
+			productName = "Goldfish-iOS";
+			productReference = AACA087026F09ADA005E3A67 /* Goldfish-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AACA088026F09ADC005E3A67 /* Goldfish-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACA089826F09ADC005E3A67 /* Build configuration list for PBXNativeTarget "Goldfish-iOSTests" */;
+			buildPhases = (
+				AACA087D26F09ADC005E3A67 /* Sources */,
+				AACA087E26F09ADC005E3A67 /* Frameworks */,
+				AACA087F26F09ADC005E3A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AACA088326F09ADC005E3A67 /* PBXTargetDependency */,
+			);
+			name = "Goldfish-iOSTests";
+			productName = "Goldfish-iOSTests";
+			productReference = AACA088126F09ADC005E3A67 /* Goldfish-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AACA088B26F09ADC005E3A67 /* Goldfish-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACA089B26F09ADC005E3A67 /* Build configuration list for PBXNativeTarget "Goldfish-iOSUITests" */;
+			buildPhases = (
+				AACA088826F09ADC005E3A67 /* Sources */,
+				AACA088926F09ADC005E3A67 /* Frameworks */,
+				AACA088A26F09ADC005E3A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AACA088E26F09ADC005E3A67 /* PBXTargetDependency */,
+			);
+			name = "Goldfish-iOSUITests";
+			productName = "Goldfish-iOSUITests";
+			productReference = AACA088C26F09ADC005E3A67 /* Goldfish-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AACA086826F09ADA005E3A67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AACA086F26F09ADA005E3A67 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AACA088026F09ADC005E3A67 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AACA086F26F09ADA005E3A67;
+					};
+					AACA088B26F09ADC005E3A67 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AACA086F26F09ADA005E3A67;
+					};
+				};
+			};
+			buildConfigurationList = AACA086B26F09ADA005E3A67 /* Build configuration list for PBXProject "Goldfish-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AACA086726F09ADA005E3A67;
+			productRefGroup = AACA087126F09ADA005E3A67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AACA086F26F09ADA005E3A67 /* Goldfish-iOS */,
+				AACA088026F09ADC005E3A67 /* Goldfish-iOSTests */,
+				AACA088B26F09ADC005E3A67 /* Goldfish-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AACA086E26F09ADA005E3A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACA087B26F09ADC005E3A67 /* Preview Assets.xcassets in Resources */,
+				AACA087826F09ADC005E3A67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACA087F26F09ADC005E3A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACA088A26F09ADC005E3A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AACA086C26F09ADA005E3A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACA087626F09ADA005E3A67 /* ContentView.swift in Sources */,
+				AACA087426F09ADA005E3A67 /* Goldfish_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACA087D26F09ADC005E3A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACA088626F09ADC005E3A67 /* Goldfish_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACA088826F09ADC005E3A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACA089126F09ADC005E3A67 /* Goldfish_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AACA088326F09ADC005E3A67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AACA086F26F09ADA005E3A67 /* Goldfish-iOS */;
+			targetProxy = AACA088226F09ADC005E3A67 /* PBXContainerItemProxy */;
+		};
+		AACA088E26F09ADC005E3A67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AACA086F26F09ADA005E3A67 /* Goldfish-iOS */;
+			targetProxy = AACA088D26F09ADC005E3A67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AACA089326F09ADC005E3A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AACA089426F09ADC005E3A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AACA089626F09ADC005E3A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Goldfish-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7M284RRBH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Goldfish-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.remutyapp.Goldfish-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AACA089726F09ADC005E3A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Goldfish-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7M284RRBH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Goldfish-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.remutyapp.Goldfish-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AACA089926F09ADC005E3A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7M284RRBH;
+				INFOPLIST_FILE = "Goldfish-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.remutyapp.Goldfish-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goldfish-iOS.app/Goldfish-iOS";
+			};
+			name = Debug;
+		};
+		AACA089A26F09ADC005E3A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7M284RRBH;
+				INFOPLIST_FILE = "Goldfish-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.remutyapp.Goldfish-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goldfish-iOS.app/Goldfish-iOS";
+			};
+			name = Release;
+		};
+		AACA089C26F09ADC005E3A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7M284RRBH;
+				INFOPLIST_FILE = "Goldfish-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.remutyapp.Goldfish-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Goldfish-iOS";
+			};
+			name = Debug;
+		};
+		AACA089D26F09ADC005E3A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7M284RRBH;
+				INFOPLIST_FILE = "Goldfish-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.remutyapp.Goldfish-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Goldfish-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AACA086B26F09ADA005E3A67 /* Build configuration list for PBXProject "Goldfish-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACA089326F09ADC005E3A67 /* Debug */,
+				AACA089426F09ADC005E3A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACA089526F09ADC005E3A67 /* Build configuration list for PBXNativeTarget "Goldfish-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACA089626F09ADC005E3A67 /* Debug */,
+				AACA089726F09ADC005E3A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACA089826F09ADC005E3A67 /* Build configuration list for PBXNativeTarget "Goldfish-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACA089926F09ADC005E3A67 /* Debug */,
+				AACA089A26F09ADC005E3A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACA089B26F09ADC005E3A67 /* Build configuration list for PBXNativeTarget "Goldfish-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACA089C26F09ADC005E3A67 /* Debug */,
+				AACA089D26F09ADC005E3A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AACA086826F09ADA005E3A67 /* Project object */;
+}
