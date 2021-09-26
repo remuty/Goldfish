@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Goldfish-iOS
 //
-//  Created by remuty on 2021/09/14.
+//  Created by remuty.
 //
 
 import SwiftUI
