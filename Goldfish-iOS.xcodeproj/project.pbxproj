@@ -16,6 +16,11 @@
 		AACA087B26F09ADC005E3A67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACA087A26F09ADC005E3A67 /* Preview Assets.xcassets */; };
 		AACA088626F09ADC005E3A67 /* Goldfish_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA088526F09ADC005E3A67 /* Goldfish_iOSTests.swift */; };
 		AACA089126F09ADC005E3A67 /* Goldfish_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA089026F09ADC005E3A67 /* Goldfish_iOSUITests.swift */; };
+		AAD3F5242701C7DB001E08C2 /* SNSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3F5232701C7DB001E08C2 /* SNSView.swift */; };
+		AAD3F5262701D666001E08C2 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3F5252701D666001E08C2 /* ChatBubble.swift */; };
+		AAD3F5282701DA61001E08C2 /* BubblePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3F5272701DA61001E08C2 /* BubblePosition.swift */; };
+		AAD3F52A2701DA77001E08C2 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3F5292701DA77001E08C2 /* ChatModel.swift */; };
+		AAD3F52C2701DBDB001E08C2 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3F52B2701DBDB001E08C2 /* CustomScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		AACA088C26F09ADC005E3A67 /* Goldfish-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goldfish-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACA089026F09ADC005E3A67 /* Goldfish_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goldfish_iOSUITests.swift; sourceTree = "<group>"; };
 		AACA089226F09ADC005E3A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD3F5232701C7DB001E08C2 /* SNSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSView.swift; sourceTree = "<group>"; };
+		AAD3F5252701D666001E08C2 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		AAD3F5272701DA61001E08C2 /* BubblePosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblePosition.swift; sourceTree = "<group>"; };
+		AAD3F5292701DA77001E08C2 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		AAD3F52B2701DBDB001E08C2 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,8 @@
 		AA1F8D8926FF2C7900602F80 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AAD3F5272701DA61001E08C2 /* BubblePosition.swift */,
+				AAD3F5292701DA77001E08C2 /* ChatModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -92,6 +104,7 @@
 				AACA087526F09ADA005E3A67 /* ContentView.swift */,
 				AA1F8D8D26FF2DFD00602F80 /* HomeView.swift */,
 				AA2CA9FD27007E05008C179E /* TipsListView.swift */,
+				AAD3F5232701C7DB001E08C2 /* SNSView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -100,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				AA2CA9FF27007E73008C179E /* TipsView.swift */,
+				AAD3F5252701D666001E08C2 /* ChatBubble.swift */,
+				AAD3F52B2701DBDB001E08C2 /* CustomScrollView.swift */,
 			);
 			path = SubView;
 			sourceTree = "<group>";
@@ -292,11 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD3F5282701DA61001E08C2 /* BubblePosition.swift in Sources */,
 				AA2CAA0027007E73008C179E /* TipsView.swift in Sources */,
+				AAD3F5242701C7DB001E08C2 /* SNSView.swift in Sources */,
 				AA1F8D8E26FF2DFD00602F80 /* HomeView.swift in Sources */,
+				AAD3F52C2701DBDB001E08C2 /* CustomScrollView.swift in Sources */,
 				AA2CA9FE27007E05008C179E /* TipsListView.swift in Sources */,
 				AACA087626F09ADA005E3A67 /* ContentView.swift in Sources */,
 				AACA087426F09ADA005E3A67 /* Goldfish_iOSApp.swift in Sources */,
+				AAD3F5262701D666001E08C2 /* ChatBubble.swift in Sources */,
+				AAD3F52A2701DA77001E08C2 /* ChatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
