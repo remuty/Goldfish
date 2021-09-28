@@ -42,7 +42,7 @@ struct SNSView: View {
                             model.text = ""
                         }
                     }) {
-                        Image(systemName: "location.fill")
+                        Image(systemName: "paperplane.fill")
                             .resizable()
                             .frame(width: 30.0, height: 30.0)
                     }
