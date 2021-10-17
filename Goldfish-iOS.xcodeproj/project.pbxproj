@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1F8D8E26FF2DFD00602F80 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F8D8D26FF2DFD00602F80 /* HomeView.swift */; };
+		AA2CA9FE27007E05008C179E /* TipsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CA9FD27007E05008C179E /* TipsListView.swift */; };
+		AA2CAA0027007E73008C179E /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CA9FF27007E73008C179E /* TipsView.swift */; };
 		AACA087426F09ADA005E3A67 /* Goldfish_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA087326F09ADA005E3A67 /* Goldfish_iOSApp.swift */; };
 		AACA087626F09ADA005E3A67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA087526F09ADA005E3A67 /* ContentView.swift */; };
 		AACA087826F09ADC005E3A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACA087726F09ADC005E3A67 /* Assets.xcassets */; };
 		AACA087B26F09ADC005E3A67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACA087A26F09ADC005E3A67 /* Preview Assets.xcassets */; };
 		AACA088626F09ADC005E3A67 /* Goldfish_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA088526F09ADC005E3A67 /* Goldfish_iOSTests.swift */; };
 		AACA089126F09ADC005E3A67 /* Goldfish_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA089026F09ADC005E3A67 /* Goldfish_iOSUITests.swift */; };
+		AAD3F5242701C7DB001E08C2 /* SNSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3F5232701C7DB001E08C2 /* SNSView.swift */; };
+		AAD3F5262701D666001E08C2 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3F5252701D666001E08C2 /* ChatBubble.swift */; };
+		AAD3F5282701DA61001E08C2 /* BubblePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3F5272701DA61001E08C2 /* BubblePosition.swift */; };
+		AAD3F52A2701DA77001E08C2 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3F5292701DA77001E08C2 /* ChatModel.swift */; };
+		AAD3F52C2701DBDB001E08C2 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3F52B2701DBDB001E08C2 /* CustomScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA1F8D8D26FF2DFD00602F80 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AA2CA9FD27007E05008C179E /* TipsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsListView.swift; sourceTree = "<group>"; };
+		AA2CA9FF27007E73008C179E /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		AACA087026F09ADA005E3A67 /* Goldfish-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goldfish-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACA087326F09ADA005E3A67 /* Goldfish_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goldfish_iOSApp.swift; sourceTree = "<group>"; };
 		AACA087526F09ADA005E3A67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +56,11 @@
 		AACA088C26F09ADC005E3A67 /* Goldfish-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goldfish-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACA089026F09ADC005E3A67 /* Goldfish_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goldfish_iOSUITests.swift; sourceTree = "<group>"; };
 		AACA089226F09ADC005E3A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD3F5232701C7DB001E08C2 /* SNSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSView.swift; sourceTree = "<group>"; };
+		AAD3F5252701D666001E08C2 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		AAD3F5272701DA61001E08C2 /* BubblePosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblePosition.swift; sourceTree = "<group>"; };
+		AAD3F5292701DA77001E08C2 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		AAD3F52B2701DBDB001E08C2 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA1F8D8926FF2C7900602F80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAD3F5272701DA61001E08C2 /* BubblePosition.swift */,
+				AAD3F5292701DA77001E08C2 /* ChatModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA1F8D8A26FF2C9700602F80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA2CA9FA270072A2008C179E /* SubView */,
+				AACA087526F09ADA005E3A67 /* ContentView.swift */,
+				AA1F8D8D26FF2DFD00602F80 /* HomeView.swift */,
+				AA2CA9FD27007E05008C179E /* TipsListView.swift */,
+				AAD3F5232701C7DB001E08C2 /* SNSView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA2CA9FA270072A2008C179E /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				AA2CA9FF27007E73008C179E /* TipsView.swift */,
+				AAD3F5252701D666001E08C2 /* ChatBubble.swift */,
+				AAD3F52B2701DBDB001E08C2 /* CustomScrollView.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
 		AACA086726F09ADA005E3A67 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +142,9 @@
 		AACA087226F09ADA005E3A67 /* Goldfish-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				AA1F8D8A26FF2C9700602F80 /* View */,
+				AA1F8D8926FF2C7900602F80 /* Model */,
 				AACA087326F09ADA005E3A67 /* Goldfish_iOSApp.swift */,
-				AACA087526F09ADA005E3A67 /* ContentView.swift */,
 				AACA087726F09ADC005E3A67 /* Assets.xcassets */,
 				AACA087C26F09ADC005E3A67 /* Info.plist */,
 				AACA087926F09ADC005E3A67 /* Preview Content */,
@@ -259,8 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD3F5282701DA61001E08C2 /* BubblePosition.swift in Sources */,
+				AA2CAA0027007E73008C179E /* TipsView.swift in Sources */,
+				AAD3F5242701C7DB001E08C2 /* SNSView.swift in Sources */,
+				AA1F8D8E26FF2DFD00602F80 /* HomeView.swift in Sources */,
+				AAD3F52C2701DBDB001E08C2 /* CustomScrollView.swift in Sources */,
+				AA2CA9FE27007E05008C179E /* TipsListView.swift in Sources */,
 				AACA087626F09ADA005E3A67 /* ContentView.swift in Sources */,
 				AACA087426F09ADA005E3A67 /* Goldfish_iOSApp.swift in Sources */,
+				AAD3F5262701D666001E08C2 /* ChatBubble.swift in Sources */,
+				AAD3F52A2701DA77001E08C2 /* ChatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
