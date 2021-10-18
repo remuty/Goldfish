@@ -15,7 +15,7 @@ struct HomeView: View {
                 HStack(){
                     Image("kingyo_esa")
                         .resizable()
-                        .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                        .aspectRatio(contentMode: .fill)
                         .frame(width: 50.0, height: 60.0)
                     VStack{
                         Text("次のエサやりまであと")
@@ -26,7 +26,7 @@ struct HomeView: View {
                 }
                 Image("Goldfish")
                     .resizable()
-                    .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                    .aspectRatio(contentMode: .fill)
                     .frame(width:geometry.size.width)
             }.onAppear(perform: {
                 Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
