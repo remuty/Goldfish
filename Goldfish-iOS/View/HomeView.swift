@@ -30,7 +30,7 @@ struct HomeView: View {
                     .frame(width:geometry.size.width)
             }.onAppear(perform: {
                 Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
-                    self.time.calculateTime()
+                    time.calculateTime()
                 }})
         }
     }

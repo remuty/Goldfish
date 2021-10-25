@@ -19,7 +19,7 @@ struct ContentView: View {
             SNSView().tabItem {
                 Image(systemName: "message")
             }.tag(3)
-        }
+        }.accentColor(.orange)
     }
 }
 
