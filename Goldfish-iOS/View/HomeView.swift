@@ -24,10 +24,14 @@ struct HomeView: View {
                             .fontWeight(.bold)
                     }
                 }
-                Image("Goldfish")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width:geometry.size.width)
+                ZStack(alignment: .bottom){
+                    Image("Goldfish")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width:geometry.size.width)
+                    FeedButton()
+                        .padding(.bottom, 10.0)
+                }
             }.onAppear(perform: {
                 Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
                     time.calculateTime()
