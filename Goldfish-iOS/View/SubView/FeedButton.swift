@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FeedButton: View {
+    var isFeed:Bool
     var body: some View {
         ZStack(){
             Image(systemName: "circle.fill")
@@ -18,18 +19,26 @@ struct FeedButton: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 80.0, height: 80.0)
-            Image(systemName: "arrow.up")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .foregroundColor(Color.green)
-                .padding(.bottom, 60.0)
-                .frame(width: 80.0, height: 110.0)
+            if isFeed {
+                Image(systemName: "checkmark")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .foregroundColor(Color.blue)
+                    .frame(width: 80.0, height: 80.0)
+            }else{
+                Image(systemName: "arrow.up")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .foregroundColor(Color.blue)
+                    .padding(.bottom, 60.0)
+                    .frame(width: 80.0, height: 110.0)
+            }
         }
     }
 }
 
 struct FeedButton_Previews: PreviewProvider {
     static var previews: some View {
-        FeedButton()
+        FeedButton(isFeed: false)
     }
 }

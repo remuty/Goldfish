@@ -30,9 +30,9 @@ struct HomeView: View {
                         .aspectRatio(contentMode: .fill)
                         .frame(width:geometry.size.width)
                     Button(action: {
-                        time.isFeed = true
+                        time.isFeed.toggle()
                     }){
-                        FeedButton()
+                        FeedButton(isFeed: time.isFeed)
                             .padding([.bottom, .trailing], 20.0)
                     }
                 }
