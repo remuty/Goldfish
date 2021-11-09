@@ -8,15 +8,18 @@
 import Foundation
 
 class Time: ObservableObject {
-    @Published var nextTime : String = ""
+    @Published var nextTime = ""
+    @Published var isFeed = false
+    let feedingTime = 12
+    
+    //次のエサやりまでの時間を計算
     func calculateTime() {
-        let feedingTime = 12
         let calendar = Calendar(identifier: .gregorian)
         let now = Date()
         let nowDC = calendar.dateComponents([.year, .month, .day,.hour], from: now)
         var next = Date()
-        //現在時刻に合わせて次の時間を設定
-        if nowDC.hour! >= feedingTime{
+        //次の時間を設定
+        if nowDC.hour! >= feedingTime || isFeed == true{
             let nextDay = calendar.date(byAdding: .day, value: 1, to: now)!
             let nextDayDC = calendar.dateComponents([.year, .month, .day], from: nextDay)
             next = calendar.date(from: DateComponents(year: nextDayDC.year, month: nextDayDC.month, day: nextDayDC.day, hour: feedingTime))!

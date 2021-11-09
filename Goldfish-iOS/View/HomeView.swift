@@ -24,13 +24,17 @@ struct HomeView: View {
                             .fontWeight(.bold)
                     }
                 }
-                ZStack(alignment: .bottom){
+                ZStack(alignment: .bottomTrailing){
                     Image("Goldfish")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width:geometry.size.width)
-                    FeedButton()
-                        .padding(.bottom, 10.0)
+                    Button(action: {
+                        time.isFeed = true
+                    }){
+                        FeedButton()
+                            .padding([.bottom, .trailing], 20.0)
+                    }
                 }
             }.onAppear(perform: {
                 Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
