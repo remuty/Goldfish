@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0BEE552739FEB600200E5C /* FeedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BEE542739FEB600200E5C /* FeedButton.swift */; };
 		AA1F8D8E26FF2DFD00602F80 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F8D8D26FF2DFD00602F80 /* HomeView.swift */; };
 		AA2CA9FE27007E05008C179E /* TipsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CA9FD27007E05008C179E /* TipsListView.swift */; };
 		AA2CAA0027007E73008C179E /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CA9FF27007E73008C179E /* TipsView.swift */; };
+		AA8F36EA271C6289001FC777 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F36E9271C6289001FC777 /* Time.swift */; };
 		AACA087426F09ADA005E3A67 /* Goldfish_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA087326F09ADA005E3A67 /* Goldfish_iOSApp.swift */; };
 		AACA087626F09ADA005E3A67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA087526F09ADA005E3A67 /* ContentView.swift */; };
 		AACA087826F09ADC005E3A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACA087726F09ADC005E3A67 /* Assets.xcassets */; };
@@ -41,9 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA0BEE542739FEB600200E5C /* FeedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedButton.swift; sourceTree = "<group>"; };
 		AA1F8D8D26FF2DFD00602F80 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AA2CA9FD27007E05008C179E /* TipsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsListView.swift; sourceTree = "<group>"; };
 		AA2CA9FF27007E73008C179E /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		AA8F36E9271C6289001FC777 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 		AACA087026F09ADA005E3A67 /* Goldfish-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goldfish-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACA087326F09ADA005E3A67 /* Goldfish_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goldfish_iOSApp.swift; sourceTree = "<group>"; };
 		AACA087526F09ADA005E3A67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 			children = (
 				AAD3F5272701DA61001E08C2 /* BubblePosition.swift */,
 				AAD3F5292701DA77001E08C2 /* ChatModel.swift */,
+				AA8F36E9271C6289001FC777 /* Time.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				AA2CA9FF27007E73008C179E /* TipsView.swift */,
+				AA0BEE542739FEB600200E5C /* FeedButton.swift */,
 				AAD3F5252701D666001E08C2 /* ChatBubble.swift */,
 				AAD3F52B2701DBDB001E08C2 /* CustomScrollView.swift */,
 			);
@@ -310,12 +316,14 @@
 				AAD3F5282701DA61001E08C2 /* BubblePosition.swift in Sources */,
 				AA2CAA0027007E73008C179E /* TipsView.swift in Sources */,
 				AAD3F5242701C7DB001E08C2 /* SNSView.swift in Sources */,
+				AA0BEE552739FEB600200E5C /* FeedButton.swift in Sources */,
 				AA1F8D8E26FF2DFD00602F80 /* HomeView.swift in Sources */,
 				AAD3F52C2701DBDB001E08C2 /* CustomScrollView.swift in Sources */,
 				AA2CA9FE27007E05008C179E /* TipsListView.swift in Sources */,
 				AACA087626F09ADA005E3A67 /* ContentView.swift in Sources */,
 				AACA087426F09ADA005E3A67 /* Goldfish_iOSApp.swift in Sources */,
 				AAD3F5262701D666001E08C2 /* ChatBubble.swift in Sources */,
+				AA8F36EA271C6289001FC777 /* Time.swift in Sources */,
 				AAD3F52A2701DA77001E08C2 /* ChatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,7 +20,7 @@ struct SNSView: View {
                 CustomScrollView(scrollToEnd: true) {
                     LazyVStack {
                         ForEach(0..<model.arrayOfMessages.count, id:\.self) { index in
-                            ChatBubble(position: model.arrayOfPositions[index], color: model.arrayOfPositions[index] == BubblePosition.right ?.blue : .gray) {
+                            ChatBubble(position: model.arrayOfPositions[index], color: model.arrayOfPositions[index] == BubblePosition.right ?.accentColor : .gray) {
                                 Text(model.arrayOfMessages[index])
                             }
                         }
